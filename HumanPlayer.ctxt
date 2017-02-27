@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HumanPlayer()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ HumanPlayer\r\n
+comment1.params=
+comment1.target=int\ getNextMove()
+comment1.text=\r\n\ This\ method\ asks\ player\ to\ choose\ and\ type\ in\ the\ column\ number\ where\ they\ would\ like\ the\ chip\ to\ be\ placed\ in.\r\n\ There\ are\ 7\ columns\ on\ the\ Connect4\ board\ so\ the\ player\ must\ type\ in\ a\ valid\ column\ number\ ranging\ from\r\n\ 1\ to\ 7.\ \r\n
+numComments=2

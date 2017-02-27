@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Board()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Board\r\n
+comment1.params=
+comment1.target=char[][]\ createBoard()
+comment1.text=\r\n\ This\ method\ creates\ the\ Connect4\ board\ based\ on\ the\ desired\ number\ of\ rows\ and\ columns,\ which\ is\ 7\ columns\ and\ 6\ rows.\r\n
+comment2.params=
+comment2.target=void\ printBoard()
+comment2.text=\r\n\ This\ method\ will\ make\ the\ newly\ created\ Connect4\ board\ visbile\ and\ appear\ as\ \r\n\ text-based\ board\ with\ 7\ columns\ and\ 6\ rows\ in\ the\ Terminal\ window.\ \r\n
+comment3.params=chip\ move
+comment3.target=boolean\ updateBoard(char,\ int)
+comment3.text=\r\n\ This\ method\ will\ refresh\ the\ board\ to\ show\ the\ latest\ moves\ by\ moving\ the\ chips\ to\ the\ selected\ column\ that\ the\ player\ would\ \r\n\ like\ the\ chip\ to\ be\ in.\r\n
+comment4.params=playerChoice
+comment4.target=boolean\ validUserInput(int)
+comment4.text=\r\n\ This\ method\ checks\ to\ ensure\ that\ the\ user\ isn't\ placing\ their\ chip\ in\ a\ column\ that\ is\ already\ full.\r\n
+comment5.params=player
+comment5.target=boolean\ checkForWin(Player)
+comment5.text=\r\n\ This\ method\ will\ look\ to\ see\ if\ there\ is\ a\ win\ after\ 4\ chips\ have\ been\ placed\ on\ the\ board.\ There\ are\ 4\ possible\ ways\ to\ win\ the\r\n\ game.\ The\ first\ is\ by\ getting\ 4\ in\ a\ row\ vertically\ or\ horizontally.\ This\ method\ looks\ at\ the\ spot\ of\ the\ last\ placed\ chip\ to\ simplify\ the\ checking.\r\n\ It\ then\ checks\ for\ diagonal\ wins\ through\ looking\ for\ 4\ chips\ in\ certain\ positions\ (pre-determined\ positions\ that\ are\ the\ only\ possible\ locations\ for\ diagonal\r\n\ wins.\r\n
+numComments=6

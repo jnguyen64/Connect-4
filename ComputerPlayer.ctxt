@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ComputerPlayer()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Computer\r\n
+comment1.params=player
+comment1.target=int\ getLastEnemyMove(Player)
+comment1.text=\r\n\ This\ method\ allows\ the\ computer\ to\ see\ the\ see\ what\ the\ Human\ player's\ last\ move\ was\ before\ the\ computer\r\n\ goes\ to\ place\ their\ chip\ in\ the\ Connect4\ board.\r\n
+comment2.params=
+comment2.target=int\ randomMove()
+comment2.text=\r\n\ The\ computer\ player's\ move\ is\ completely\ randomized\ and\ will\ be\ placed\ on\ the\ board\ based\ on\ a\ random\r\n\ generator\ that\ picks\ one\ of\ the\ 7\ columns\ to\ drop\ its\ chip.\r\n
+comment3.params=board
+comment3.target=void\ easyComputerMove(Board)
+comment3.text=\r\n\ This\ method\ will\ make\ sure\ that\ the\ computer\ player\ makes\ a\ valid\ move\ based\ its\ random-generated\ decision.\r\n\ In\ addition,\ it\ will\ display\ a\ message\ that\ tells\ the\ player\ which\ column\ they\ placed\ the\ chip.\r\n
+numComments=4

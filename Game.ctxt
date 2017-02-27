@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Game()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Game\r\n
+comment1.params=
+comment1.target=void\ play()
+comment1.text=\r\n\ This\ method\ allows\ the\ player\ to\ play\ the\ game\ of\ Connect4.\ It\ will\ create\ a\ new,\ visible\ board\ and\ ask\ the\ player\ if\ they\ want\ to\ play\ with\ a\ computer\r\n\ or\ not.\ If\ they\ do,\ the\ game\ will\ ask\ the\ player\ to\ enter\ their\ name\ and\ then\ ask\ for\ their\ move\ and\ then\ the\ computer's\ move.\ It\ will\ go\ back\ and\ \r\n\ forth\ until\ the\ player\ or\ computer\ gets\ 4\ chips\ in\ a\ row\ in\ vertical,\ horiztonal,\ or\ diagonal\ direction.\r\n\ \r\n\ If\ the\ player\ wants\ to\ play\ with\ another\ Human\ player,\ the\ game\ will\ ask\ for\ the\ first\ player\ to\ enter\ their\ name\ and\ then\ the\ second\ player\ to\ enter\r\n\ their\ name\ too.\ After\ that,\ each\ player\ takes\ turn\ in\ placing\ their\ chip\ into\ the\ Connect4\ board.\ The\ game\ will\ be\ over\ when\ one\ of\ the\ two\ Human\r\n\ players\ is\ first\ to\ reach\ 4\ chips\ in\ a\ row,\ horizontally,\ vertically,\ or\ diagonally.\r\n
+comment2.params=
+comment2.target=boolean\ compCheck()
+comment2.text=\r\n\ This\ method\ is\ evoked\ when\ the\ Human\ player\ starts\ the\ game.\ The\ Human\ player\ has\ a\ choice\ of\ either\ playing\ or\ not\ playing\ with\ a\ computer\ player.\ \r\n\ If\ the\ Human\ player\ chooses\ "N",\ it\ will\ create\ a\ game\ between\ two\ Human\ Players.\ If\ the\ Human\ player\ chooses\ "Y",\ it\ will\ create\ a\ game\ between\ the\ \r\n\ Human\ Player\ and\ computer\ player.\ In\ addition,\ if\ the\ Human\ player\ enters\ in\ some\ other\ response\ than\ "Y"\ or\ "N",\ the\ game\ will\ not\ understand\ the\r\n\ response\ and\ will\ ask\ the\ Human\ player\ to\ enter\ in\ the\ correct\ response\ ("Y"\ or\ "N").\ If\ the\ response\ is\ "Y",\ the\ computer\ player\ mechanics\ will\ \r\n\ take\ place\ of\ the\ second\ Human\ Player.\r\n
+numComments=3

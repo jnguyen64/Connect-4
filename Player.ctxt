@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Player()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Player\r\n
+comment1.params=
+comment1.target=int\ getLastMove()
+comment1.text=\r\n\ This\ method\ will\ show\ the\ player's\ last\ move\ on\ the\ board.\r\n
+comment2.params=chip
+comment2.target=void\ setChip(char)
+comment2.text=\r\n\ This\ method\ will\ assign\ the\ chips\ to\ the\ player.\r\n
+comment3.params=
+comment3.target=char\ getChip()
+comment3.text=\r\n\ This\ method\ will\ return\ the\ player's\ chips.\r\n
+comment4.params=name
+comment4.target=void\ setName(java.lang.String)
+comment4.text=\r\n\ This\ method\ will\ set\ the\ name\ of\ the\ player\ once\ they\ type\ it\ in\ and\ enter\ it\ in.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment5.text=\r\n\ This\ method\ will\ return\ the\ player's\ name\ if\ evoked.\ \r\n
+numComments=6
